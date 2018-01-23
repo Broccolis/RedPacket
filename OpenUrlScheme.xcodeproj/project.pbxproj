@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CE2617E2016D9D900728AF0 /* 绿色小汽车@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE2617C2016D9D900728AF0 /* 绿色小汽车@3x.png */; };
+		7CE2617F2016D9D900728AF0 /* 绿色小汽车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE2617D2016D9D900728AF0 /* 绿色小汽车@2x.png */; };
 		7CEEFE1520158C3D0053489A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEFE1420158C3D0053489A /* AppDelegate.m */; };
 		7CEEFE1820158C3D0053489A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEFE1720158C3D0053489A /* ViewController.m */; };
 		7CEEFE1B20158C3D0053489A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEEFE1920158C3D0053489A /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CE2617C2016D9D900728AF0 /* 绿色小汽车@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "绿色小汽车@3x.png"; sourceTree = "<group>"; };
+		7CE2617D2016D9D900728AF0 /* 绿色小汽车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "绿色小汽车@2x.png"; sourceTree = "<group>"; };
 		7CEEFE1020158C3D0053489A /* OpenUrlScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenUrlScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEEFE1320158C3D0053489A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CEEFE1420158C3D0053489A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				7CEEFE1420158C3D0053489A /* AppDelegate.m */,
 				7CEEFE1620158C3D0053489A /* ViewController.h */,
 				7CEEFE1720158C3D0053489A /* ViewController.m */,
+				7CE2617D2016D9D900728AF0 /* 绿色小汽车@2x.png */,
+				7CE2617C2016D9D900728AF0 /* 绿色小汽车@3x.png */,
 				7CEEFE1920158C3D0053489A /* Main.storyboard */,
 				7CEEFE1C20158C3D0053489A /* Assets.xcassets */,
 				7CEEFE1E20158C3D0053489A /* LaunchScreen.storyboard */,
@@ -238,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE2617F2016D9D900728AF0 /* 绿色小汽车@2x.png in Resources */,
 				7CEEFE2020158C3D0053489A /* LaunchScreen.storyboard in Resources */,
+				7CE2617E2016D9D900728AF0 /* 绿色小汽车@3x.png in Resources */,
 				7CEEFE1D20158C3D0053489A /* Assets.xcassets in Resources */,
 				7CEEFE1B20158C3D0053489A /* Main.storyboard in Resources */,
 			);
@@ -433,8 +441,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F96G42S536;
 				INFOPLIST_FILE = OpenUrlScheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zlink.OpenUrlScheme;
+				PRODUCT_BUNDLE_IDENTIFIER = zlink.kangLeTong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,8 +456,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F96G42S536;
 				INFOPLIST_FILE = OpenUrlScheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zlink.OpenUrlScheme;
+				PRODUCT_BUNDLE_IDENTIFIER = zlink.kangLeTong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
